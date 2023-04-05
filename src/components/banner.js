@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Banner = () => {
   return (
-    <div className='grid grid-cols-2 p-10 align-middle'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 p-10 align-middle'>
         <div  >
             <h1 className=' mt-10 '>The ecosystem for building digital presence</h1>
             <button className='bg-primary rounded-full px-7 py-3 mt-8 text-cust-grey-100 '>Start a Project</button>
