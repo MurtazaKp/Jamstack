@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-@layer base{
+@layer components{
   @font-face {
     font-family:"Neo Sans Pro" ;
     src: url(../../public/font/Neo-sans-pro.woff2) format(woff) ;
