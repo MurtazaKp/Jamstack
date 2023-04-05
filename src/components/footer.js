@@ -38,19 +38,19 @@ const Footer = () => {
 
             <div className='col-span-12 sm:col-span-6 lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 sm:gap-7  sm:p-10 m-5 sm:m-0  '>
                 <ul className='my-10 sm:my-0'>
-                    <a href="#"> <li className='font-semibold'>EcommJ</li></a>
-                    <a href="#"> <li className='font-semibold'>WebJ</li></a>
-                    <a href="#"> <li className='font-semibold'>MobJ</li></a>
-                    <a href="#"> <li className='font-semibold'>Other Services</li></a>
-                    <a href="#"> <li className='font-semibold'>Pricing</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>EcommJ</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>WebJ</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>MobJ</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>Other Services</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>Pricing</li></a>
 
                 </ul>
 
                 <ul>
-                    <a href="#"> <li className='font-semibold'>FAQ</li></a>
-                    <a href="#"> <li className='font-semibold'>About Us</li></a>
-                    <a href="#"> <li className='font-semibold'>Blog</li></a>
-                    <a href="#"> <li className='font-semibold'>Contact</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>FAQ</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>About Us</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>Blog</li></a>
+                    <a href="#"> <li className='font-semibold mb-2'>Contact</li></a>
 
                 </ul>
 
