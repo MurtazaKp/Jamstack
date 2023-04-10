@@ -1,8 +1,8 @@
 import React from 'react'
-import Image from 'next/image'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
-import { faFacebook, faFacebookF, faInstagram, faInstagramSquare, faTwitter, faWhatsapp, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons' 
+import { faFacebook, faFacebookF, faInstagramSquare, faTwitter, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons' 
 
 
 const Footer = () => {
@@ -15,6 +15,7 @@ const Footer = () => {
 
             <div className='col-span-12 sm:col-span-6 lg:col-span-8 sm:p-10 m-5 sm:m-0'>
                 <h4 className='text-primary '>Jamstack+</h4>
+             
                 <div className='flex gap-4 mt-3'>
                     <div className='text-2xl'>
                     <a href='#'> <FontAwesomeIcon className='' icon={faEnvelope} />  </a>

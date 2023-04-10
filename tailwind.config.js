@@ -33,12 +33,13 @@ module.exports = {
     },
        
     fontSize: {
+      'body': ['20px', { lineHeight: '1.5rem' }],
       'h1': ['4.62rem', { lineHeight: '5.125rem' }],
       'h2': ['4rem', { lineHeight: '5.125rem' }],
       'h3': ['3.25rem', { lineHeight: '1' }],
       'h4': ['2.5rem', { lineHeight: '1' }],
       'btn': ['2rem', { lineHeight: '2.56rem' }],
-      'body': ['1.25rem', { lineHeight: '1.5rem' }],
+      
 
 
 

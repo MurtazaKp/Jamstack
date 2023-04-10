@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { FRONTEND_URL } from '../utils/constant'
 
 const navbar = () => {
   return (
@@ -9,7 +10,7 @@ const navbar = () => {
   <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" className="flex items-center">
         <Image
-        src="/images/logo.png"
+        src={`${FRONTEND_URL}/images/logo.png`}
         width={160}
         height={40}
         
@@ -42,7 +43,7 @@ const navbar = () => {
 <button id="dropdownUserAvatarButton" data-dropdown-toggle="dropdownAvatar" class="" type="button">
     <span class="sr-only">Open user menu</span>
     <Image
-    src="/images/Hamburger.png"
+    src={`${FRONTEND_URL}/images/hamburger.png`}
     width={20}
     height={20}
     />
