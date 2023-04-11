@@ -19,6 +19,7 @@ module.exports = {
       'primary': "#e002a2",
       'accent1':"#4767F6",
       'accent2':"#ff5223",
+      'white':"#ffffff",
       'cust-grey':{
         100:"#f1f2f6",
         200:"#d1d5E5"

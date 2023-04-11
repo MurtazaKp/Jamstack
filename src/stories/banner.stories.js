@@ -1,4 +1,4 @@
-import Banner from '../components/banner';
+import Banner from '../components/Banner/ImageLeft';
 import 'tailwindcss/tailwind.css';
 import "../styles/globals.css"
 
