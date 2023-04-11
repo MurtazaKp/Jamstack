@@ -1,7 +1,7 @@
 import React from 'react'
 import Medium from '../Button/medium'
 
-const Banner = () => {
+const ImageLeft = () => {
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 '>
         <div  >
@@ -17,4 +17,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default ImageLeft
