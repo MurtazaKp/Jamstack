@@ -6,7 +6,7 @@ import ImageGallary from '../components/imageGallary';
 
 
 export default {
-    title: 'Image Gallary',
+    title: 'Components/Image Gallary',
    
   };
 

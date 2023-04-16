@@ -7,7 +7,7 @@ import BottomNoButton from '..//components/Banner/bottomNoButton';
 
 
 export default {
-    title: 'Banner',
+    title: 'Components/Banner',
    
   };
   

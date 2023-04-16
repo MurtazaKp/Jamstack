@@ -7,7 +7,7 @@ import TextLeft from '../components/CTA/textLeft';
 
 
 export default {
-    title: 'Cta',
+    title: 'Components/Cta',
    
   };
   

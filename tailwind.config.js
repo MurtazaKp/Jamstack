@@ -13,55 +13,59 @@ module.exports = {
 
 
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'primary': "#e002a2",
-      'accent1':"#4767F6",
-      'accent2':"#ff5223",
-      'white':"#ffffff",
-      'cust-grey':{
-        100:"#f1f2f6",
-        200:"#d1d5E5"
+    extend:{
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'primary': "#e002a2",
+        'accent1':"#4767F6",
+        'accent2':"#ff5223",
+        'white':"#ffffff",
+        'cust-grey':{
+          100:"#f1f2f6",
+          200:"#d1d5E5"
+        },
+    
+      
+      
+    
+      
+
+      
       },
-   
-    
-    
-  
-    
+        
+      fontSize: {
+        'body': ['20px', { lineHeight: '1.5rem' }],
+        'h1': ['3.6rem', { lineHeight: '5.125rem' }],
+        'h2': ['3rem', { lineHeight: '5.125rem' }],
+        'h3': ['2.6rem', { lineHeight: '1' }],
+        'h4': ['2rem', { lineHeight: '1' }],
+        'h5': ['1.6rem', { lineHeight: '1' }],
 
-    
-    },
-       
-    fontSize: {
-      'body': ['20px', { lineHeight: '1.5rem' }],
-      'h1': ['4.62rem', { lineHeight: '5.125rem' }],
-      'h2': ['4rem', { lineHeight: '5.125rem' }],
-      'h3': ['3.25rem', { lineHeight: '1' }],
-      'h4': ['2.5rem', { lineHeight: '1' }],
-      'btn': ['2rem', { lineHeight: '2.56rem' }],
-      
+        'btn': ['1.6rem', { lineHeight: '2.56rem' }],
+        
 
 
 
 
 
 
-    },
+      },
 
-    fontFamily:{
-      "neo":"Neo Sans Pro",
-      "inter":"Inter",
-      
+      fontFamily:{
+        "neo":"Neo Sans Pro",
+        "inter":"Inter",
+        
 
-      
-    },
+        
+      },
 
-  
+  },
 
    
     plugins: [
       require('./node_modules/flowbite/plugin')
   ],
+  
 },
 }

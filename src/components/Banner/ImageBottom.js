@@ -9,7 +9,7 @@ const ImageBottom = () => {
             <Medium/>
         
        
-            <img className='mt-14'  src='https://github.com/MurtazaKp/Jamstack/blob/main/public/images/ImageBottom.png?raw=true'></img>
+            <img className='mt-14 '  src='https://github.com/MurtazaKp/Jamstack/blob/main/public/images/ImageBottom.png?raw=true'></img>
         </div>
     </div>
   )

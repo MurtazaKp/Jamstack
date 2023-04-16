@@ -7,7 +7,7 @@ import "../styles/globals.css";
 
 
 export default {
-  title: 'List',
+  title: 'Components/List',
 };
 
 export const SingleList = () => (

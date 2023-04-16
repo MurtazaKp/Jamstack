@@ -3,7 +3,7 @@ import 'tailwindcss/tailwind.css';
 
 
 export default {
-    title: 'Footer',
+    title: 'Components/Footer',
     component: Footer,
   };
   

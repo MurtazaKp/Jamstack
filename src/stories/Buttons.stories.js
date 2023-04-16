@@ -10,7 +10,7 @@ import InputGroup from '../components/input_group';
 
 
 export default {
-    title: 'Button',
+    title: 'Components/Button',
    
   };
   

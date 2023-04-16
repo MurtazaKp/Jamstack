@@ -3,7 +3,7 @@ import 'tailwindcss/tailwind.css';
 
 
 export default {
-    title: 'Navbar',
+    title: 'Components/Navbar',
     component: Navbar,
   };
   
