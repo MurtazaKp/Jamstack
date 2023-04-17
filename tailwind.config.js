@@ -41,7 +41,7 @@ module.exports = {
         'h3': ['2.6rem', { lineHeight: '1' }],
         'h4': ['2rem', { lineHeight: '1' }],
         'h5': ['1.6rem', { lineHeight: '1' }],
-        'btn': ['1.2rem', { lineHeight: '2.56rem' }],
+        'btn': ['1.2rem', { lineHeight: '1' }],
         
 
 

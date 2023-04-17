@@ -1,8 +1,11 @@
+import Head from 'next/head'
 import React from 'react'
 
 const Accordian = () => {
   return (
-   
+  <>
+  <Head><script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</Head>
 <div id="accordion-collapse " data-accordion="collapse">
   <h2 id="accordion-collapse-heading-1">
     <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-black border-b-2" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
@@ -46,6 +49,8 @@ const Accordian = () => {
     </div>
   </div>
 </div>
+  </>
+   
 
   )
 }
