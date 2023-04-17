@@ -9,35 +9,35 @@ const Typography = ({fontWeight}) => {
       <h4 className='text-gray-600'>Font size</h4>
       <div>
         <h1 className={`${"font-"+fontWeight}`} >Heading 1</h1>
-        <p className={`${"font-"+fontWeight} text-gray-400 `}>72px Semibold</p>
+        <p className=" text-gray-400 ">72px Semibold</p>
       </div>
 
       <div>
-        <h2>Heading 2</h2>
+        <h2 className={`${"font-"+fontWeight}`} >Heading 2</h2>
         <p className="text-gray-400">64px Semibold</p>
       </div>
 
       <div>
-        <h3>Heading 3</h3>
+        <h3 className={`${"font-"+fontWeight}`}>Heading 3</h3>
         <p className="text-gray-400">52px Semibold</p>
         
 
       </div>
 
       <div>
-        <h4>Heading 4</h4>
+        <h4 className={`${"font-"+fontWeight}`}>Heading 4</h4>
         <p className="text-gray-400">40px Regular</p>
       </div>
 
 
       <div>
-        <h5>Heading 5</h5>
+        <h5 className={`${"font-"+fontWeight}`}>Heading 5</h5>
         <p className="text-gray-400">32px Regular</p>
       </div>
 
       
     <div>
-        <p>Body</p>
+        <p className={`${"font-"+fontWeight}`}>Body</p>
         <p className="text-gray-400">20px Regular</p>
       </div>
     </div>

@@ -6,7 +6,7 @@
 @layer base{
   @font-face {
     font-family:"Neo Sans Pro" ;
-    src: url(../../public/font/Neo-sans-pro.woff2) format(woff) ;
+    src: url(../../public/font/Neo-sans-Pro.woff) format(woff) ;
     font-weight: 400;
     font-display: swap;
     font-style: normal;
@@ -26,19 +26,19 @@
  
 
   h1{
-    @apply text-h1 font-medium  font-neo;
+    @apply text-h1   font-neo;
     
   
   }
 
   h2{
-    @apply text-h2 font-medium font-neo;
+    @apply text-h2 font-neo;
     
   
   }
 
   h3{
-    @apply text-h3 font-medium  font-neo;
+    @apply text-h3  font-neo;
     
   
   }
@@ -56,7 +56,8 @@
   }
 
   button{
-    @apply text-btn font-semibold text-btn
+    @apply text-btn font-semibold 
+    
   }
 }
 
@@ -64,7 +65,10 @@
 
 
 
-
+button{
+  height:3rem !important;
+  padding: 0 1rem !important;
+}
 
 
 

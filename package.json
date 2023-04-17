@@ -29,7 +29,6 @@
     "@storybook/addon-docs": "^7.0.4",
     "@storybook/addon-essentials": "^7.0.4",
     "@storybook/addon-interactions": "^7.0.4",
-    "@storybook/addon-knobs": "^7.0.0",
     "@storybook/addon-links": "^7.0.4",
     "@storybook/addon-mdx-gfm": "7.0.4",
     "@storybook/addons": "^7.0.4",
