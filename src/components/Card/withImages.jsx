@@ -2,6 +2,7 @@ import React from 'react'
 import { faArrowAltCircleRight,faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
 const WithImage = () => {
   return (
     <>

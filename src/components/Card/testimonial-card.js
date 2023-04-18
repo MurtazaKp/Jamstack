@@ -4,57 +4,43 @@ const TestimonialCard = () => {
   return (
     <>
    
-  <div class="container px-5 mx-auto">
-    <div class="flex items-center  border-2 pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+  <div class="container px-5 w-7/12 gap-24 flex flex-col">
+    <div class="flex gap-6 p-3 shadow-lg drop-shadow-2xl justify-evenly items-center border-2 border-t-0 py-5 border-gray-200">
+    
+        <img className='' src='https://github.com/MurtazaKp/Jamstack/blob/main/public/images/Testimonial1.png?raw=true' />
+  
+      <div class="flex-grow sm:text-left  text-center mt-6 sm:mt-0">
         
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        
-        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
+        <p class="leading-relaxed text-base pb-3">Our team has hands on on the modern and trendy tools with great knowledge of choosing them wisely.</p>
+       <p>- Kaylynn Kenter</p>
       </div>
     </div>
-    <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
-        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-      <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
-          <circle cx="6" cy="6" r="3"></circle>
-          <circle cx="6" cy="18" r="3"></circle>
-          <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-        </svg>
-      </div>
-    </div>
-    <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-      <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
-          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-          <circle cx="12" cy="7" r="4"></circle>
-        </svg>
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The 400 Blows</h2>
-        <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-        <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-    <button class="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+
+    <div class="flex gap-6 p-3 shadow-lg drop-shadow-2xl justify-evenly items-center border-2 border-t-0 py-5 border-gray-200">
+    
+    <img className='' src='https://github.com/MurtazaKp/Jamstack/blob/main/public/images/Testimonial2.png?raw=true' />
+
+  <div class="flex-grow sm:text-left  text-center mt-6 sm:mt-0">
+    
+    <p class="leading-relaxed text-base pb-3">Our team has hands on on the modern and trendy tools with great knowledge of choosing them wisely.</p>
+   <p>- Kianna Franci</p>
+  </div>
+</div>
+
+
+
+<div class="flex gap-6 p-3 shadow-lg drop-shadow-2xl justify-evenly items-center border-2 border-t-0 py-5 border-gray-200">
+    
+    <img className='' src='https://github.com/MurtazaKp/Jamstack/blob/main/public/images/Testimonial3.png?raw=true' />
+
+  <div class="flex-grow sm:text-left  text-center mt-6 sm:mt-0">
+    
+    <p class="leading-relaxed text-base pb-3">Our team has hands on on the modern and trendy tools with great knowledge of choosing them wisely.</p>
+   <p>- Ryan Lipshutz</p>
+  </div>
+</div>
+    
+   
   </div>
 
 
