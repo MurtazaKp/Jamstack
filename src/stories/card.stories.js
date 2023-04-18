@@ -2,7 +2,7 @@
 import 'tailwindcss/tailwind.css';
 import "../styles/globals.css"
 import WithoutImage from '../components/Card/withoutImage';
-import WithImage from '../components/Card/WithImage';
+import WithImage from '../components/Card/withImage';
 
 
 export default {
