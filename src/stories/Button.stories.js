@@ -1,8 +1,8 @@
-import { Button } from './Button';
+import { Button } from './Button'; 
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 export default {
-  title: 'Example/Button',
+  title: 'JamStack/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {
@@ -16,26 +16,26 @@ export default {
 export const Primary = {
   args: {
     primary: true,
-    label: 'Button',
+    label: 'Start A Project',
   },
 };
 
 export const Secondary = {
   args: {
-    label: 'Button',
+    label: 'Start A Project',
   },
 };
 
 export const Large = {
   args: {
     size: 'large',
-    label: 'Button',
+    label: 'Start A Project',
   },
 };
 
 export const Small = {
   args: {
     size: 'small',
-    label: 'Button',
+    label: 'Start A Project',
   },
 };

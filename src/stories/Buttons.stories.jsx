@@ -10,20 +10,30 @@ import InputGroup from '../components/input_group';
 
 
 export default {
-    title: 'Button',
+    title: 'Example/Button',
+    component : Medium,
    
   };
   
-  export const SmallButton = () => <Small/>;
+
+
+
 
 
   export const MediumButton = () => <Medium/>;
 
-  export const LargeButton = () => <Large/>;
 
-  export const Inputgroup = () => <InputGroup/>;
 
-  export const Symbol_Button = () => <SymbolButton/>;
+
+
+
+  // export const SmallButton = () => <Small/>;
+
+  // export const LargeButton = () => <Large/>;
+
+  // export const Inputgroup = () => <InputGroup/>;
+
+  // export const Symbol_Button = () => <SymbolButton/>;
 
 
 
